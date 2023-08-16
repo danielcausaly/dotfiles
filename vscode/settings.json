@@ -1,0 +1,141 @@
+{
+  "editor.minimap.enabled": true,
+  "breadcrumbs.enabled": true,
+  "editor.tabSize": 4,
+  "sync.gist": "53a69ff51e91c6bb4348c769fdf37293",
+  "files.insertFinalNewline": true,
+  "files.trimTrailingWhitespace": true,
+  // "editor.formatOnPaste": true,
+  "editor.multiCursorModifier": "alt",
+  "editor.snippetSuggestions": "top",
+  "auto-close-tag.SublimeText3Mode": true,
+  "emmet.useNewEmmet": true,
+  // "emmet.showAbbreviationSuggestions": true,
+  // "emmet.showExpandedAbbreviation": "always", // required to work with "emmet.includeLanguages"
+  // "emmet.triggerExpansionOnTab": true,
+  "emmet.includeLanguages": {
+    "edge": "html",
+    "vue-html": "html",
+    "vue": "html"
+  },
+  "prettier.semi": false,
+  "prettier.bracketSpacing": false,
+  "prettier.printWidth": 160,
+  "vetur.format.defaultFormatter.js": "prettier-eslint",
+  "explorer.confirmDragAndDrop": false,
+  "aws.samcli.location": "/usr/local/bin/sam",
+  "emmet.showAbbreviationSuggestions": false,
+  "javascript.preferences.quoteStyle": "single",
+  "typescript.preferences.quoteStyle": "single",
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "explorer.confirmDelete": false,
+  "editor.formatOnType": true,
+  "editor.codeActionsOnSaveTimeout": 1200,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  // "eslint.format.enable": true,
+  "eslint.validate": [
+    "javascript",
+    "typescript"
+  ],
+  "editor.fontFamily": "JetBrains Mono, Menlo, Monaco, 'Courier New', monospace",
+  "editor.fontSize": 12,
+  "editor.fontLigatures": true,
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "editor.suggestSelection": "first",
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "[jsonc]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "editor.formatOnPaste": true,
+  "editor.formatOnSave": true,
+  "eslint.format.enable": true,
+  "files.exclude": {
+    "**/node_modules": true,
+    "**/venv*": true,
+    "**/.git": false,
+    // "**/gold_set*": true
+    // "**/*.sql": true
+  },
+  "advancedNewFile.exclude": {
+    "**/node_modules": true,
+    "**/venv*": true,
+    "**/.git": true,
+    "**/vendor*": true,
+    "**/shared/data*": true,
+    "**/gold_set*": true,
+    "**/*.sql": true
+  },
+  "python.languageServer": "Default",
+  "workbench.editorAssociations": {
+    "*.ipynb": "jupyter-notebook"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "notebook.cellToolbarLocation": {
+    "default": "right",
+    "jupyter-notebook": "left"
+  },
+  "python.formatting.provider": "black",
+  "python.defaultInterpreterPath": "/Users/daniel.vliegenthart/.pyenv/shims/python",
+  "json.schemas": [],
+  "editor.inlineSuggest.enabled": true,
+  "github.copilot.enable": {
+    "*": true,
+    "plaintext": false,
+    "markdown": false,
+    "scminput": false,
+    "yaml": true,
+    "json": false
+  },
+  "python.analysis.extraPaths": [
+    "./serverless_architecture/layers/shared_utils/python",
+    "./serverless_architecture/layers/visual_clues_algorithm/python",
+    "./serverless_architecture/layers/table_extraction_algorithm/python"
+  ],
+  "search.exclude": {
+    "**/.git": true,
+    "**/*.code-search": false,
+    "**/*.sql": true,
+    "**/*venv*/**": true,
+    "**/gold_set/**/extracted/**/*": true,
+    "**/gold_set/**/textract/**/*": true,
+    "**/gold_set/**/visual_clues/**/*": true,
+    "**/node_modules": false,
+    "**/node_modules/**/*": true,
+    "**/shared/data*/**/*.json": true,
+    "**/vendor*/**": true
+  },
+  "search.maxResults": 1000,
+  "search.quickOpen.history.filterSortOrder": "recency",
+  "grammarly.files.include": [
+    "**/readme.md",
+    "**/README.md",
+    "**/*.txt",
+    "**/*.md"
+  ],
+  "editor.suggest.showMethods": true,
+  "editor.suggest.preview": true,
+  "editor.acceptSuggestionOnEnter": "on",
+  "security.workspace.trust.untrustedFiles": "open",
+  "code-runner.fileDirectoryAsCwd": true,
+  "interactiveWindow.alwaysScrollOnNewCell": false,
+  "code-runner.runInTerminal": true,
+  "code-runner.saveFileBeforeRun": true,
+  "[python]": {},
+  "python.analysis.autoImportCompletions": true,
+  "python.analysis.completeFunctionParens": true,
+  "python.analysis.autoImportUserSymbols": true,
+  "search.searchEditor.reusePriorSearchConfiguration": true,
+  "explorer.autoRevealExclude": {
+    "**/venv*": true
+  },
+  "files.watcherExclude": {
+    "**/venv*": true
+  },
+  "aws.codeWhisperer.includeSuggestionsWithCodeReferences": false,
+}

@@ -1,0 +1,150 @@
+// Place your key bindings in this file to override the defaultsauto[]
+[
+  {
+    "key": "shift+cmd+r",
+    "command": "workbench.action.reloadWindow",
+    "when": "isDevelopment"
+  },
+  {
+    "key": "cmd+r",
+    "command": "-workbench.action.reloadWindow",
+    "when": "isDevelopment"
+  },
+  {
+    "key": "cmd+r",
+    "command": "workbench.action.openRecent"
+  },
+  {
+    "key": "ctrl+r",
+    "command": "-workbench.action.openRecent"
+  },
+  {
+    "key": "cmd+y",
+    "command": "redo",
+    "when": "textInputFocus && !editorReadonly"
+  },
+  {
+    "key": "shift+cmd+z",
+    "command": "-redo",
+    "when": "textInputFocus && !editorReadonly"
+  },
+  {
+    "key": "cmd+right",
+    "command": "workbench.action.nextEditorInGroup"
+  },
+  {
+    "key": "cmd+left",
+    "command": "workbench.action.previousEditorInGroup"
+  },
+  {
+    "key": "alt+tab",
+    "command": "workbench.action.navigateEditorGroups"
+  },
+  {
+    "key": "shift+cmd",
+    "command": "editor.action.revealDefinition",
+    "when": "editorHasDefinitionProvider && editorTextFocus && !isInEmbeddedEditor"
+  },
+  {
+    "key": "f12",
+    "command": "-editor.action.revealDefinition",
+    "when": "editorHasDefinitionProvider && editorTextFocus && !isInEmbeddedEditor"
+  },
+  {
+    "key": "shift+cmd",
+    "command": "editor.action.revealDefinitionAside",
+    "when": "editorHasDefinitionProvider && editorTextFocus && !isInEmbeddedEditor"
+  },
+  {
+    "key": "cmd+k f12",
+    "command": "-editor.action.revealDefinitionAside",
+    "when": "editorHasDefinitionProvider && editorTextFocus && !isInEmbeddedEditor"
+  },
+  {
+    "key": "cmd+enter",
+    "command": "npm.runSelectedScript"
+  },
+  {
+    "key": "cmd+enter",
+    "command": "code-runner.run"
+  },
+  {
+    "key": "ctrl+alt+n",
+    "command": "-code-runner.run"
+  },
+  {
+    "key": "alt+enter",
+    "command": "workbench.action.debug.start",
+    "when": "debuggersAvailable && debugState == 'inactive'"
+  },
+  {
+    "key": "f5",
+    "command": "-workbench.action.debug.start",
+    "when": "debuggersAvailable && debugState == 'inactive'"
+  },
+  {
+    "key": "ctrl+r",
+    "command": "cursorLineEnd",
+    "when": "textInputFocus"
+  },
+  {
+    "key": "ctrl+e",
+    "command": "-cursorLineEnd",
+    "when": "textInputFocus"
+  },
+  {
+    "key": "ctrl+e",
+    "command": "cursorLineStart",
+    "when": "textInputFocus"
+  },
+  {
+    "key": "ctrl+a",
+    "command": "-cursorLineStart",
+    "when": "textInputFocus"
+  },
+  {
+    "key": "ctrl+shift+s",
+    "command": "cursorLineStartSelect",
+    "when": "textInputFocus"
+  },
+  {
+    "key": "ctrl+shift+a",
+    "command": "-cursorLineStartSelect",
+    "when": "textInputFocus"
+  },
+  {
+    "key": "shift+cmd+d",
+    "command": "-editor.action.copyLinesDownAction",
+    "when": "editorFocus"
+  },
+  {
+    "key": "shift+cmd+d",
+    "command": "editor.action.revealDefinition"
+  },
+  {
+    "key": "shift+cmd+l",
+    "command": "workbench.action.terminal.focus"
+  },
+  {
+    "key": "shift+cmd+l",
+    "command": "workbench.action.focusActiveEditorGroup",
+    "when": "terminalFocus"
+  },
+  {
+    "key": "shift+cmd+h",
+    "command": "-workbench.action.replaceInFiles"
+  },
+  {
+    "key": "shift+cmd+u",
+    "command": "-workbench.action.output.toggleOutput",
+    "when": "workbench.panel.output.active"
+  },
+  {
+    "key": "shift+cmd+u",
+    "command": "workbench.action.navigateLeft"
+  },
+  {
+    "key": "shift+cmd+i",
+    "command": "workbench.action.navigateRight"
+  },
+]
